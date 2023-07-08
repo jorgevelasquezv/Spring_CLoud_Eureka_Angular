@@ -4,89 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-alumnos/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-alumnos/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-alumnos/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-alumnos/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-alumnos/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-alumnos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-alumnos/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-alumnos/src/test/java/co/com/jorge/commons/alumnos/CommonsAlumnosApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-examenes/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-examenes/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-examenes/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-examenes/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-examenes/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-examenes/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Examen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Pregunta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-examenes/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-examenes/src/test/java/co/com/jorge/commons/examenes/CommonsExamenesApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-ms/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-ms/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-ms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-ms/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-ms/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-ms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-ms/src/main/java/co/com/jorge/commons/services/CommonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-ms/src/main/java/co/com/jorge/commons/services/CommonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-ms/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-ms/src/test/java/co/com/jorge/commons/CommonsMsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cursos/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cursos/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cursos/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cursos/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cursos/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cursos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/MsCursosApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cursos/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cursos/src/test/java/co/com/jorge/ms/cursos/MsCursosApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-eureka-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-eureka-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-eureka-server/src/main/java/co/com/jorge/ms/eureka/server/MsEurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-eureka-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-eureka-server/src/test/java/co/com/jorge/ms/eureka/server/MsEurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-examenes/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-examenes/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-examenes/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-examenes/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-examenes/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-examenes/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/MsExamenesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-examenes/src/test/java/co/com/jorge/ms/examenes/MsExamenesApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-usuarios/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-usuarios/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-usuarios/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-usuarios/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-usuarios/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-usuarios/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/MsUsuariosApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-usuarios/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-usuarios/src/test/java/co/com/jorge/msusuarios/MsUsuariosApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-zuul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-zuul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-zuul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-zuul/src/main/java/co/com/jorge/ms/zuul/MsZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-zuul/src/test/java/co/com/jorge/ms/zuul/MsZuulApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688764648837</updated>
       <workItem from="1688764651223" duration="12994000" />
-      <workItem from="1688821477552" duration="13936000" />
+      <workItem from="1688821477552" duration="14397000" />
     </task>
     <servers />
   </component>
