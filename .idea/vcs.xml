@@ -2,13 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/commons-alumnos" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/commons-examenes" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/commons-ms" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ms-cursos" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ms-eureka-server" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ms-examenes" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ms-usuarios" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ms-zuul" vcs="Git" />
   </component>
 </project>

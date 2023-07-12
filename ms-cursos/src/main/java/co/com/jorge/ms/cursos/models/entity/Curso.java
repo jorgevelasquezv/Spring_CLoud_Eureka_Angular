@@ -3,6 +3,7 @@ package co.com.jorge.ms.cursos.models.entity;
 import co.com.jorge.commons.alumnos.models.entity.Alumno;
 import co.com.jorge.commons.examenes.model.entity.Examen;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -17,6 +18,7 @@ public class Curso {
     @Column(name = "id", nullable = false)
     private Long id;
 
+    @NotEmpty
     private String nombre;
 
     @Column(name = "create_at")

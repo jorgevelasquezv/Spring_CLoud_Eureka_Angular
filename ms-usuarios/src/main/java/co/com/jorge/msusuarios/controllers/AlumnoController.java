@@ -3,8 +3,10 @@ package co.com.jorge.msusuarios.controllers;
 import co.com.jorge.commons.alumnos.models.entity.Alumno;
 import co.com.jorge.commons.controllers.CommonController;
 import co.com.jorge.msusuarios.services.AlumnoService;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
@@ -17,7 +19,10 @@ public class AlumnoController extends CommonController<Alumno, AlumnoService> {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<?> actualizar(@RequestBody Alumno alumno, @PathVariable Long id){
+    public ResponseEntity<?> actualizar(@Valid @RequestBody Alumno alumno, BindingResult result, @PathVariable Long id){
+        if (result.hasErrors()){
+            return this.validar(result);
+        }
         Optional<Alumno> optionalAlumno = service.findById(id);
         if (optionalAlumno.isEmpty()){
             return ResponseEntity.notFound().build();

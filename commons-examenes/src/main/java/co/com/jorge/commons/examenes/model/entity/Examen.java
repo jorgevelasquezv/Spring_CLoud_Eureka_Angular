@@ -2,6 +2,9 @@ package co.com.jorge.commons.examenes.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -16,6 +19,8 @@ public class Examen {
     @Column(name = "id", nullable = false)
     private Long id;
 
+    @NotEmpty
+    @Size(min = 4, max = 30)
     private String nombre;
 
     @Column(name = "create_at")
@@ -25,6 +30,10 @@ public class Examen {
     @JsonIgnoreProperties(value = {"examen"}, allowSetters = true)
     @OneToMany(mappedBy = "examen",fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Pregunta> preguntas;
+
+    @NotNull
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Asignatura asignatura;
 
     @PrePersist
     private void prePersist(){
@@ -76,6 +85,14 @@ public class Examen {
     public void removePregunta(Pregunta pregunta) {
         this.preguntas.remove(pregunta);
         pregunta.setExamen(null);
+    }
+
+    public Asignatura getAsignatura() {
+        return asignatura;
+    }
+
+    public void setAsignatura(Asignatura asignatura) {
+        this.asignatura = asignatura;
     }
 
     @Override

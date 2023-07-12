@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="" />
+    <list default="true" id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-alumnos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons-alumnos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-alumnos/src/main/java/co/com/jorge/commons/alumnos/models/entity/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-alumnos/src/main/java/co/com/jorge/commons/alumnos/models/entity/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-examenes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons-examenes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Examen.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Examen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-ms/src/main/java/co/com/jorge/commons/controllers/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-ms/src/main/java/co/com/jorge/commons/controllers/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/controllers/CursoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/controllers/CursoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/models/entity/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/models/entity/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/controllers/ExamenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/controllers/ExamenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/controllers/AlumnoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/controllers/AlumnoController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ms-cursos" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -57,7 +72,8 @@
     "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "C:/Users/georg/Documents/JORGE/Curso_MS_Spring_Cloud_Eureka_Angular/Spring_CLoud_Eureka_Angular/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "8648956807e485207281f629943f1248"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "478c0cf34bc5b1887094785a774ebf45"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,13 +94,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MsExamenesApplication">
-    <configuration name="CommonsExamenesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="commons-examenes" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.commons.examenes.CommonsExamenesApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MsCursosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="ms-cursos" />
@@ -102,6 +111,7 @@
       </method>
     </configuration>
     <configuration name="MsExamenesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="ms-examenes" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.ms.examenes.MsExamenesApplication" />
       <method v="2">
@@ -126,7 +136,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.CommonsExamenesApplication" />
       <item itemvalue="Spring Boot.MsExamenesApplication" />
       <item itemvalue="Spring Boot.MsCursosApplication" />
       <item itemvalue="Spring Boot.MsEurekaServerApplication" />
@@ -143,7 +152,8 @@
       <option name="presentableId" value="Default" />
       <updated>1688764648837</updated>
       <workItem from="1688764651223" duration="12994000" />
-      <workItem from="1688821477552" duration="14397000" />
+      <workItem from="1688821477552" duration="15052000" />
+      <workItem from="1689191290482" duration="7257000" />
     </task>
     <servers />
   </component>
@@ -160,5 +170,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/commons-alumnos" />
+      <path value="$PROJECT_DIR$/commons-examenes" />
+      <path value="$PROJECT_DIR$/commons-ms" />
+      <path value="$PROJECT_DIR$/ms-cursos" />
+      <path value="$PROJECT_DIR$/ms-eureka-server" />
+      <path value="$PROJECT_DIR$/ms-examenes" />
+      <path value="$PROJECT_DIR$/ms-usuarios" />
+      <path value="$PROJECT_DIR$/ms-zuul" />
+    </ignored-roots>
   </component>
 </project>
