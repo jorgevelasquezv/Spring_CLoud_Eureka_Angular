@@ -3,6 +3,8 @@ package co.com.jorge.commons.controllers;
 
 import co.com.jorge.commons.services.CommonService;
 import jakarta.validation.Valid;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
@@ -23,6 +25,20 @@ public class CommonController<E, S extends CommonService<E>> {
     @GetMapping
     public ResponseEntity<?> listar(){
         return ResponseEntity.ok(service.findAll());
+    }
+
+    @GetMapping("/pagina")
+    public ResponseEntity<?> listar(Pageable pageable){
+        Page<?> page = service.findAll(pageable);
+        Map<String, Object> pageData = new HashMap<>();
+        pageData.put("totalElements", page.getTotalElements());
+        pageData.put("totalPages", page.getTotalPages());
+        pageData.put("size", page.getSize());
+        pageData.put("number", page.getNumber());
+        Map<String, Object> body = new HashMap<>();
+        body.put("data", page.getContent());
+        body.put("page", pageData);
+        return ResponseEntity.ok(body);
     }
 
     @GetMapping("/{id}")

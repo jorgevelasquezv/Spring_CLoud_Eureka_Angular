@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-alumnos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons-alumnos/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-alumnos/src/main/java/co/com/jorge/commons/alumnos/models/entity/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-alumnos/src/main/java/co/com/jorge/commons/alumnos/models/entity/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-examenes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons-examenes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Examen.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Examen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons-ms/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-ms/src/main/java/co/com/jorge/commons/controllers/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-ms/src/main/java/co/com/jorge/commons/controllers/CommonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/controllers/CursoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/controllers/CursoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/models/entity/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/models/entity/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/controllers/ExamenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/controllers/ExamenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-ms/src/main/java/co/com/jorge/commons/services/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-ms/src/main/java/co/com/jorge/commons/services/CommonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-ms/src/main/java/co/com/jorge/commons/services/CommonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-ms/src/main/java/co/com/jorge/commons/services/CommonServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/controllers/AlumnoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/controllers/AlumnoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,24 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/georg/Documents/JORGE/Curso_MS_Spring_Cloud_Eureka_Angular/Spring_CLoud_Eureka_Angular/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "478c0cf34bc5b1887094785a774ebf45"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/georg/Documents/JORGE/Curso_MS_Spring_Cloud_Eureka_Angular/Spring_CLoud_Eureka_Angular/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;478c0cf34bc5b1887094785a774ebf45&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\georg\Documents\JORGE\Curso_MS_Spring_Cloud_Eureka_Angular\Spring_CLoud_Eureka_Angular\commons-examenes\src\main\java\co\com\jorge\commons\examenes\model" />
@@ -93,7 +86,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MsExamenesApplication">
+  <component name="RunManager" selected="Spring Boot.MsEurekaServerApplication">
     <configuration name="MsCursosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="ms-cursos" />
@@ -153,7 +146,9 @@
       <updated>1688764648837</updated>
       <workItem from="1688764651223" duration="12994000" />
       <workItem from="1688821477552" duration="15052000" />
-      <workItem from="1689191290482" duration="7257000" />
+      <workItem from="1689191290482" duration="7728000" />
+      <workItem from="1689254105651" duration="600000" />
+      <workItem from="1689431236569" duration="9529000" />
     </task>
     <servers />
   </component>
