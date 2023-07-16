@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @RestController
 public class CursoController extends CommonController<Curso, CursoService> {
@@ -59,7 +60,18 @@ public class CursoController extends CommonController<Curso, CursoService> {
 
     @GetMapping("/alumno/{id}")
     public ResponseEntity<?> buscarPorAlumnoId(@PathVariable Long id){
-        return ResponseEntity.ok(service.findCursoByAlumnoId(id));
+        Curso curso = service.findCursoByAlumnoId(id);
+        if (curso != null){
+            List<Long> examenesIds = (List<Long>) service.obtenerExamenesIdConRespuestasAlumno(id);
+
+            List<Examen> examenes = curso.getExamenes().stream().map(examen -> {
+                if (examenesIds.contains(examen.getId())) examen.setRespondido(true);
+                return examen;
+            }).collect(Collectors.toList());
+
+            curso.setExamenes(examenes);
+        }
+        return ResponseEntity.ok(curso);
     }
 
     @PutMapping("/{id}/asignar-examenes")

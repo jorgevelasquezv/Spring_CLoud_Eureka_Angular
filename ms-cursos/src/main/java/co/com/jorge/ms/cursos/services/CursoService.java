@@ -6,4 +6,6 @@ import co.com.jorge.ms.cursos.models.entity.Curso;
 public interface CursoService extends CommonService<Curso> {
 
     Curso findCursoByAlumnoId(Long id);
+
+    Iterable<Long> obtenerExamenesIdConRespuestasAlumno(Long alumnoId);
 }
