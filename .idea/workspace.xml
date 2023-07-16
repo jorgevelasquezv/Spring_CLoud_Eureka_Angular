@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ms-respuestas/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-respuestas/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-respuestas/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-respuestas/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-respuestas/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-respuestas/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/MsRespuestasApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-respuestas/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-respuestas/src/test/java/co/com/jorge/ms/respuestas/MsRespuestasApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Examen.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Examen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Pregunta.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Pregunta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/MsCursosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/MsCursosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/controllers/CursoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/controllers/CursoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-zuul/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2SGEiWgjWmrb2R7k6YhKO1glFV4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/georg/Documents/JORGE/Curso_MS_Spring_Cloud_Eureka_Angular/Spring_CLoud_Eureka_Angular/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "95f14e65208b06c8e17a77aa29e9347e"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\georg\Documents\JORGE\Curso_MS_Spring_Cloud_Eureka_Angular\Spring_CLoud_Eureka_Angular\commons-examenes\src\main\java\co\com\jorge\commons\examenes\model" />
+      <recent name="C:\Users\georg\Documents\JORGE\Curso_MS_Spring_Cloud_Eureka_Angular\Spring_CLoud_Eureka_Angular\commons-ms\src\main\java\co\com\jorge\commons\services" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.com.jorge.commons.alumnos.models.entity" />
+      <recent name="co.com.jorge.commons.controllers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MsEurekaServerApplication">
+    <configuration name="MsCursosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="ms-cursos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.ms.cursos.MsCursosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="ms-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.ms.eureka.server.MsEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsExamenesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="ms-examenes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.ms.examenes.MsExamenesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsRespuestasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-respuestas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.ms.respuestas.MsRespuestasApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsUsuariosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-usuarios" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.msusuarios.MsUsuariosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ms-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.ms.zuul.MsZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MsRespuestasApplication" />
+      <item itemvalue="Spring Boot.MsExamenesApplication" />
+      <item itemvalue="Spring Boot.MsCursosApplication" />
+      <item itemvalue="Spring Boot.MsEurekaServerApplication" />
+      <item itemvalue="Spring Boot.MsUsuariosApplication" />
+      <item itemvalue="Spring Boot.MsZuulApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="" />
+      <created>1688764648837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688764648837</updated>
+      <workItem from="1688764651223" duration="12994000" />
+      <workItem from="1688821477552" duration="15052000" />
+      <workItem from="1689191290482" duration="7728000" />
+      <workItem from="1689254105651" duration="600000" />
+      <workItem from="1689431236569" duration="14634000" />
+      <workItem from="1689518109744" duration="9842000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/commons-alumnos" />
+      <path value="$PROJECT_DIR$/commons-examenes" />
+      <path value="$PROJECT_DIR$/commons-ms" />
+      <path value="$PROJECT_DIR$/ms-cursos" />
+      <path value="$PROJECT_DIR$/ms-eureka-server" />
+      <path value="$PROJECT_DIR$/ms-examenes" />
+      <path value="$PROJECT_DIR$/ms-usuarios" />
+      <path value="$PROJECT_DIR$/ms-zuul" />
+    </ignored-roots>
+  </component>
+</project>
