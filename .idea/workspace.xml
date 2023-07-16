@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ms-respuestas/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-respuestas/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-respuestas/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-respuestas/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-respuestas/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-respuestas/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/MsRespuestasApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-respuestas/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-respuestas/src/test/java/co/com/jorge/ms/respuestas/MsRespuestasApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Examen.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Examen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Pregunta.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model/entity/Pregunta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-cursos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/MsCursosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/MsCursosApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/controllers/CursoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/controllers/CursoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-zuul/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,24 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/georg/Documents/JORGE/Curso_MS_Spring_Cloud_Eureka_Angular/Spring_CLoud_Eureka_Angular/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "95f14e65208b06c8e17a77aa29e9347e"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/georg/Documents/JORGE/Curso_MS_Spring_Cloud_Eureka_Angular/Spring_CLoud_Eureka_Angular/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;95f14e65208b06c8e17a77aa29e9347e&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\georg\Documents\JORGE\Curso_MS_Spring_Cloud_Eureka_Angular\Spring_CLoud_Eureka_Angular\commons-examenes\src\main\java\co\com\jorge\commons\examenes\model" />
@@ -101,9 +86,12 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MsEurekaServerApplication">
-    <configuration name="MsCursosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.MsCursosApplication">
+    <configuration name="MsCursosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="BALANCEADOR_TEST" value="curso tres" />
+      </envs>
       <module name="ms-cursos" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.ms.cursos.MsCursosApplication" />
       <method v="2">
@@ -122,6 +110,14 @@
       <option name="ACTIVE_PROFILES" />
       <module name="ms-examenes" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.ms.examenes.MsExamenesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="ms-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.jorge.ms.gateway.MsGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,6 +147,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.MsGatewayApplication" />
       <item itemvalue="Spring Boot.MsRespuestasApplication" />
       <item itemvalue="Spring Boot.MsExamenesApplication" />
       <item itemvalue="Spring Boot.MsCursosApplication" />

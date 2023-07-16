@@ -6,20 +6,33 @@ import co.com.jorge.commons.examenes.model.entity.Examen;
 import co.com.jorge.ms.cursos.models.entity.Curso;
 import co.com.jorge.ms.cursos.services.CursoService;
 import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
 public class CursoController extends CommonController<Curso, CursoService> {
 
+    @Value("${config.balanceador.test}")
+    private String balanceadorTest;
     public CursoController(CursoService service) {
         super(service);
+    }
+
+   @GetMapping("/balanceador-test")
+    public ResponseEntity<?> balanceadorTest() {
+       Map<String, Object> body = new HashMap<>();
+       body.put("balanceador", balanceadorTest);
+       body.put("cursos", service.findAll());
+        return ResponseEntity.ok(body);
     }
 
     @PutMapping("/{id}")
