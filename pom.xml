@@ -27,6 +27,7 @@
         <module>commons-alumnos</module>
         <module>ms-examenes</module>
         <module>ms-respuestas</module>
+        <module>ms-gateway</module>
     </modules>
 
 </project>
