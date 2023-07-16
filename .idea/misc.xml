@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/commons-alumnos/pom.xml" />
         <option value="$PROJECT_DIR$/ms-examenes/pom.xml" />
         <option value="$PROJECT_DIR$/commons-examenes/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-respuestas/pom.xml" />
       </list>
     </option>
   </component>

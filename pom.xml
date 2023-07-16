@@ -22,9 +22,11 @@
         <module>ms-usuarios</module>
         <module>ms-zuul</module>
         <module>commons-ms</module>
+        <module>commons-examenes</module>
         <module>ms-cursos</module>
         <module>commons-alumnos</module>
         <module>ms-examenes</module>
+        <module>ms-respuestas</module>
     </modules>
 
 </project>
