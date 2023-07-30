@@ -8,7 +8,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 @SpringBootApplication
 @EntityScan({
-        "co.com.jorge.commons.alumnos.models.entity",
         "co.com.jorge.ms.cursos.models.entity",
         "co.com.jorge.commons.examenes.model.entity"
 })
