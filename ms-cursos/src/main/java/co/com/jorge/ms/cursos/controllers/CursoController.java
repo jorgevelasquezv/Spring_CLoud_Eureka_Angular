@@ -4,9 +4,12 @@ import co.com.jorge.commons.alumnos.models.entity.Alumno;
 import co.com.jorge.commons.controllers.CommonController;
 import co.com.jorge.commons.examenes.model.entity.Examen;
 import co.com.jorge.ms.cursos.models.entity.Curso;
+import co.com.jorge.ms.cursos.models.entity.CursoAlumno;
 import co.com.jorge.ms.cursos.services.CursoService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
@@ -25,6 +28,68 @@ public class CursoController extends CommonController<Curso, CursoService> {
     private String balanceadorTest;
     public CursoController(CursoService service) {
         super(service);
+    }
+
+    @GetMapping
+    @Override
+    public ResponseEntity<?> listar(){
+        List<Curso> cursos = ((List<Curso>) service.findAll())
+                .stream()
+                .map(curso -> {
+                    curso.getCursoAlumnos()
+                            .forEach(cursoAlumno -> {
+                                Alumno alumno = new Alumno();
+                                alumno.setId(cursoAlumno.getAlumnoId());
+                                curso.addAlumno(alumno);
+                            });
+                    return curso;
+                }).collect(Collectors.toList());
+        return ResponseEntity.ok(cursos);
+    }
+
+    @GetMapping("/pagina")
+    @Override
+    public ResponseEntity<?> listar(Pageable pageable){
+        Page<Curso> page = service.findAll(pageable).map(curso -> {
+            curso.getCursoAlumnos()
+                    .forEach(cursoAlumno -> {
+                        Alumno alumno = new Alumno();
+                        alumno.setId(cursoAlumno.getAlumnoId());
+                        curso.addAlumno(alumno);
+                    });
+            return curso;
+        });
+        Map<String, Object> pageData = new HashMap<>();
+        pageData.put("totalElements", page.getTotalElements());
+        pageData.put("totalPages", page.getTotalPages());
+        pageData.put("size", page.getSize());
+        pageData.put("number", page.getNumber());
+        Map<String, Object> body = new HashMap<>();
+        body.put("data", page.getContent());
+        body.put("page", pageData);
+        return ResponseEntity.ok(body);
+    }
+
+    @DeleteMapping("/eliminar-alumno/{id}")
+    public ResponseEntity<?> eliminarCursoAlumnoPorId(@PathVariable Long id){
+        service.deleteCursoAlumnoById(id);
+        return ResponseEntity.noContent().build();
+    }
+
+    @GetMapping("/{id}")
+    @Override
+    public ResponseEntity<?> ver(@PathVariable Long id){
+        Optional<Curso> optionalCurso = service.findById(id);
+        if (optionalCurso.isEmpty()){
+            return ResponseEntity.notFound().build();
+        }
+        Curso curso = optionalCurso.get();
+        if (!curso.getCursoAlumnos().isEmpty()){
+            List<Long> ids = curso.getCursoAlumnos().stream().map(CursoAlumno::getAlumnoId).toList();
+            List<Alumno> alumnos = (List<Alumno>) service.obtenerAlumnosPorCurso(ids);
+            curso.setAlumnos(alumnos);
+        }
+        return ResponseEntity.ok(curso);
     }
 
    @GetMapping("/balanceador-test")
@@ -56,7 +121,12 @@ public class CursoController extends CommonController<Curso, CursoService> {
             return ResponseEntity.notFound().build();
         }
         Curso cursoDb = optionalCurso.get();
-        alumnos.forEach(cursoDb::addAlumno);
+        alumnos.forEach(alumno -> {
+            CursoAlumno cursoAlumno = new CursoAlumno();
+            cursoAlumno.setAlumnoId(alumno.getId());
+            cursoAlumno.setCurso(cursoDb);
+            cursoDb.addCursoAlumno(cursoAlumno);
+        });
         return ResponseEntity.status(HttpStatus.CREATED).body(service.save(cursoDb));
     }
 
@@ -67,7 +137,9 @@ public class CursoController extends CommonController<Curso, CursoService> {
             return ResponseEntity.notFound().build();
         }
         Curso cursoDb = optionalCurso.get();
-        cursoDb.removeAlumno(alumno);
+        CursoAlumno cursoAlumno = new CursoAlumno();
+        cursoAlumno.setAlumnoId(alumno.getId());
+        cursoDb.removeCursoAlumno(cursoAlumno);
         return ResponseEntity.status(HttpStatus.CREATED).body(service.save(cursoDb));
     }
 
