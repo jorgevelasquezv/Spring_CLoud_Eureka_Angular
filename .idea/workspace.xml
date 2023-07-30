@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/MsCursosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/MsCursosApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/controllers/CursoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/controllers/CursoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/models/entity/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/models/entity/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/models/repository/CursoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/models/repository/CursoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/java/co/com/jorge/ms/cursos/services/CursoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cursos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cursos/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/MsRespuestasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/MsRespuestasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/controllers/RespuestaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/controllers/RespuestaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/entity/Respuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/entity/Respuesta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/repository/RespuestaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/repository/RespuestaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/MsUsuariosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/MsUsuariosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/controllers/AlumnoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/controllers/AlumnoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/models/repository/AlumnoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/models/repository/AlumnoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/services/AlumnoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/services/AlumnoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/services/AlumnoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/co/com/jorge/msusuarios/services/AlumnoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -66,7 +81,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/georg/Documents/JORGE/Curso_MS_Spring_Cloud_Eureka_Angular/Spring_CLoud_Eureka_Angular/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;95f14e65208b06c8e17a77aa29e9347e&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;39d728e9041ba3248ad43a0430b928ca&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -170,6 +185,8 @@
       <workItem from="1689254105651" duration="600000" />
       <workItem from="1689431236569" duration="14634000" />
       <workItem from="1689518109744" duration="9842000" />
+      <workItem from="1689861310843" duration="1451000" />
+      <workItem from="1690741273356" duration="13656000" />
     </task>
     <servers />
   </component>
@@ -197,6 +214,8 @@
       <path value="$PROJECT_DIR$/ms-examenes" />
       <path value="$PROJECT_DIR$/ms-usuarios" />
       <path value="$PROJECT_DIR$/ms-zuul" />
+      <path value="$PROJECT_DIR$/ms-gateway" />
+      <path value="$PROJECT_DIR$/ms-respuestas" />
     </ignored-roots>
   </component>
 </project>

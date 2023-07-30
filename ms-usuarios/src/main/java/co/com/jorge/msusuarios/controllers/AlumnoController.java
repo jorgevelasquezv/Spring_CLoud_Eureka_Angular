@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -85,5 +86,10 @@ public class AlumnoController extends CommonController<Alumno, AlumnoService> {
         return ResponseEntity.ok()
                 .contentType(MediaType.IMAGE_JPEG)
                 .body(image);
+    }
+
+    @GetMapping("alumnos-por-curso")
+    public ResponseEntity<?> obtenerAlumnosPorCurso(@RequestParam List<Long> ids){
+        return ResponseEntity.ok(service.findAllById(ids));
     }
 }

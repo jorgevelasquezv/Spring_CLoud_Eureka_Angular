@@ -2,6 +2,7 @@ package co.com.jorge.ms.cursos.models.entity;
 
 import co.com.jorge.commons.alumnos.models.entity.Alumno;
 import co.com.jorge.commons.examenes.model.entity.Examen;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 
@@ -25,7 +26,12 @@ public class Curso {
     @Temporal(TemporalType.TIMESTAMP)
     private Date createAt;
 
-    @OneToMany(fetch = FetchType.LAZY)
+    @JsonIgnoreProperties(value = {"curso"}, allowSetters = true)
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "curso", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<CursoAlumno> cursoAlumnos;
+
+    //@OneToMany(fetch = FetchType.LAZY)
+    @Transient
     private List<Alumno> alumnos;
 
     @ManyToMany(fetch = FetchType.LAZY)
@@ -39,6 +45,7 @@ public class Curso {
     public Curso() {
         this.alumnos = new ArrayList<>();
         this.examenes = new ArrayList<>();
+        this.cursoAlumnos = new ArrayList<>();
     }
 
     public Long getId() {
@@ -95,5 +102,21 @@ public class Curso {
 
     public void removeExamen(Examen examen) {
         this.examenes.remove(examen);
+    }
+
+    public List<CursoAlumno> getCursoAlumnos() {
+        return cursoAlumnos;
+    }
+
+    public void setCursoAlumnos(List<CursoAlumno> cursoAlumnos) {
+        this.cursoAlumnos = cursoAlumnos;
+    }
+
+    public void addCursoAlumno(CursoAlumno cursoAlumno) {
+        this.cursoAlumnos.add(cursoAlumno);
+    }
+
+    public void removeCursoAlumno(CursoAlumno cursoAlumno) {
+        this.cursoAlumnos.remove(cursoAlumno);
     }
 }
