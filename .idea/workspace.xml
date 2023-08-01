@@ -6,19 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/controllers/ExamenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/controllers/ExamenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/model/repository/ExamenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/model/repository/ExamenRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/co/com/jorge/ms/examenes/services/ExamenServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-respuestas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/MsRespuestasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/MsRespuestasApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/controllers/RespuestaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/controllers/RespuestaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/entity/Respuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/entity/Respuesta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/repository/RespuestaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/repository/RespuestaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/services/RespuestaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/services/RespuestaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/services/RespuestaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/services/RespuestaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +170,7 @@
       <workItem from="1689518109744" duration="9842000" />
       <workItem from="1689861310843" duration="1451000" />
       <workItem from="1690741273356" duration="14831000" />
-      <workItem from="1690829715970" duration="9226000" />
+      <workItem from="1690829715970" duration="11468000" />
     </task>
     <servers />
   </component>
