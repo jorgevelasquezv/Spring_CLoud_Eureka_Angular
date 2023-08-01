@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -48,5 +49,10 @@ public class ExamenController extends CommonController<Examen, ExamenService> {
     @GetMapping("/asignaturas")
     public ResponseEntity<?> listarAsignaturas(){
         return ResponseEntity.ok(service.findAllAsignaturas());
+    }
+
+    @GetMapping("/respondidos-por-preguntas")
+    public ResponseEntity<?> obtenerExamenesIdsPorPreguntasIdsRespondidas(@RequestParam List<Long> preguntaIds){
+        return ResponseEntity.ok(service.findExamenesIdConRespuestasByPreguntaIds(preguntaIds));
     }
 }

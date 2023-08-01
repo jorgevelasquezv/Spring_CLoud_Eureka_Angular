@@ -23,6 +23,7 @@ public class RespuestaController {
                 .stream()
                 .map(respuesta -> {
            respuesta.setAlumnoId(respuesta.getAlumno().getId());
+           respuesta.setPreguntaId(respuesta.getPregunta().getId());
            return respuesta;
         }).toList();
         Iterable<Respuesta> respuestasDb = respuestaService.saveAll(respuestas);
