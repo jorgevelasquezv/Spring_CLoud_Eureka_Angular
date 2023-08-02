@@ -14,8 +14,8 @@ import java.util.List;
 public class ExamenServiceImpl extends CommonServiceImpl<Examen, ExamenRepository> implements ExamenService{
 
     private AsignaturaRepository asignaturaRepository;
-    public ExamenServiceImpl(ExamenRepository repository, AsignaturaRepository asignaturaRepository) {
-        super(repository);
+    public ExamenServiceImpl(ExamenRepository examenRepository, AsignaturaRepository asignaturaRepository) {
+        super(examenRepository);
         this.asignaturaRepository = asignaturaRepository;
     }
 
@@ -29,5 +29,11 @@ public class ExamenServiceImpl extends CommonServiceImpl<Examen, ExamenRepositor
     @Transactional(readOnly = true)
     public List<Asignatura> findAllAsignaturas() {
         return asignaturaRepository.findAll();
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public Iterable<Long> findExamenesIdConRespuestasByPreguntaIds(Iterable<Long> preguntaIds) {
+        return repository.findExamenesIdConRespuestasByPreguntaIds(preguntaIds);
     }
 }
