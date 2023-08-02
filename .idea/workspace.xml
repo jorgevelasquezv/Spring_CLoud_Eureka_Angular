@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dddad237-623e-471b-b6fc-eeb314d81492" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/entity/Respuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/entity/Respuesta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/repository/RespuestaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/repository/RespuestaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/services/RespuestaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/services/RespuestaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/services/RespuestaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-respuestas/src/main/java/co/com/jorge/ms/respuestas/models/services/RespuestaServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/georg/Documents/JORGE/Curso_MS_Spring_Cloud_Eureka_Angular/Spring_CLoud_Eureka_Angular/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;39d728e9041ba3248ad43a0430b928ca&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/georg/Documents/JORGE/Curso_MS_Spring_Cloud_Eureka_Angular/Spring_CLoud_Eureka_Angular/commons-examenes/src/main/java/co/com/jorge/commons/examenes/model",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "39d728e9041ba3248ad43a0430b928ca",
+    "ts.external.directory.path": "C:\\Users\\georg\\Documents\\JORGE\\Curso_MS_Spring_Cloud_Eureka_Angular\\Spring_CLoud_Eureka_Angular\\cursos\\node_modules\\typescript\\lib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\georg\Documents\JORGE\Curso_MS_Spring_Cloud_Eureka_Angular\Spring_CLoud_Eureka_Angular\commons-examenes\src\main\java\co\com\jorge\commons\examenes\model" />
@@ -84,7 +82,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MsCursosApplication">
+  <component name="RunManager" selected="npm.Angular CLI Server (cursos)">
+    <configuration name="Angular Application (cursos)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
     <configuration name="MsCursosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <option name="ACTIVE_PROFILES" />
       <envs>
@@ -144,7 +145,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Angular CLI Server (cursos)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/cursos/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.Angular Application (cursos)" />
+      <item itemvalue="npm.Angular CLI Server (cursos)" />
       <item itemvalue="Spring Boot.MsGatewayApplication" />
       <item itemvalue="Spring Boot.MsRespuestasApplication" />
       <item itemvalue="Spring Boot.MsExamenesApplication" />
@@ -171,6 +184,7 @@
       <workItem from="1689861310843" duration="1451000" />
       <workItem from="1690741273356" duration="14831000" />
       <workItem from="1690829715970" duration="11600000" />
+      <workItem from="1690939652750" duration="2863000" />
     </task>
     <servers />
   </component>
