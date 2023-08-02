@@ -3,7 +3,8 @@ package co.com.jorge.ms.respuestas.models.services;
 import co.com.jorge.ms.respuestas.models.entity.Respuesta;
 import co.com.jorge.ms.respuestas.models.repository.RespuestaRepository;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 @Service
 public class RespuestaServiceImpl implements  RespuestaService{
@@ -15,20 +16,29 @@ public class RespuestaServiceImpl implements  RespuestaService{
     }
 
     @Override
-    @Transactional
     public Iterable<Respuesta> saveAll(Iterable<Respuesta> respuestas) {
         return respuestaRepository.saveAll(respuestas);
     }
 
     @Override
-    @Transactional(readOnly = true)
     public Iterable<Respuesta> findRespuestaByAlumnoByExamen(Long alumnoId, Long examenId) {
-        return respuestaRepository.findRespuestaByAlumnoByExamen(alumnoId, examenId);
+        List<Respuesta> respuestas = (List<Respuesta>) respuestaRepository.findRespuestaByAlumnoByExamen(alumnoId, examenId);
+        return respuestas;
     }
 
     @Override
-    @Transactional(readOnly = true)
-    public Iterable<Long> findExamenesIdRespondidosByAlumno(Long id) {
-        return respuestaRepository.findExamenesIdRespondidosByAlumno(id);
+    public Iterable<Long> findExamenesIdRespondidosByAlumno(Long alumnoId) {
+        List<Respuesta> respuestas = (List<Respuesta>) respuestaRepository.findExamenesIdsConRespuestasByAlumno(alumnoId);
+        List<Long> examenIds = respuestas
+                .stream()
+                .map(respuesta -> respuesta.getPregunta().getExamen().getId())
+                .distinct()
+                .toList();
+        return examenIds;
+    }
+
+    @Override
+    public Iterable<Respuesta> findByAlumnoId(Long id) {
+        return respuestaRepository.findByAlumnoId(id);
     }
 }
